@@ -25,6 +25,6 @@ class Formula {
     }
     public void displayFormula() {
         double l = Math.sqrt(x * x + y * y + z * z);
-        System.out.println("Длина вектора :" + l);
+        System.out.println("vector length:" + l);
     }
 }
