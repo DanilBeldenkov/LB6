@@ -11,17 +11,6 @@ public class Main {
         int num3=new Scanner(System.in).nextInt();
         Formula formm = new Formula (num1,num2,num3);
         formm.displayFormula();
-        System.out.println("Enter x:");
-        int num4=new Scanner(System.in).nextInt();
-        System.out.println("Enter y:");
-        int num5=new Scanner(System.in).nextInt();
-        System.out.println("Enter z:");
-        int num6=new Scanner(System.in).nextInt();
-        Formula formm2 = new Formula(num4,num5,num6);
-        formm2.y=6;
-        formm2.displayFormula();
-        formm.z=7;
-
     }
 }
 
@@ -36,6 +25,6 @@ class Formula {
     }
     public void displayFormula() {
         double l = Math.sqrt(x * x + y * y + z * z);
-        System.out.println(l);
+        System.out.println("Длина вектора :" + l);
     }
 }
